@@ -1,0 +1,15 @@
+﻿<Window x:Class="Pr3_3453.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pr3_3453"
+        mc:Ignorable="d"
+        Title="MainWindow" Background="Crimson" Height="300" Width="300">
+    <Grid>
+        <TextBlock Text="Введите двузначное число:" Margin="0,0,0,240"/>
+        <TextBox x:Name="secondsTextBox" Margin="0,29,0,210"/>
+        <Button Click="Button_Click" Content="ОК" Margin="0,59,0,182"/>
+        <TextBlock x:Name="txtOtv" Margin="0,87,0,0"/>
+    </Grid>
+</Window>
